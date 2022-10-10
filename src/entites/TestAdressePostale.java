@@ -15,6 +15,10 @@ public class TestAdressePostale {
 		adr2.libelleRue = "Saint-Lazare";
 		adr2.codePostal = 34000;
 		adr2.ville = "Montpellier";
+		
+		
+		System.out.println(adr1.numeroRue);
+		System.out.println(adr2.ville);
 
 	}
 
