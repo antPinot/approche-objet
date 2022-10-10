@@ -57,13 +57,19 @@ public class Personne {
 		this.adressePersonne.ville = ville;
 	}
 	
+	// Renvoie la variable d'instance nom
+	
 	public String renvoyerNom() {
 		return this.nom;
 	}
 	
+	// Renvoie la variable d'instance prenom
+	
 	public String renvoyerPrenom() {
 		return this.prenom;
 	}
+	
+	// Renvoie la variable d'instance adresse (de type AdressePostale)
 	
 	public AdressePostale renvoyerAdresse() {
 		return this.adressePersonne;
