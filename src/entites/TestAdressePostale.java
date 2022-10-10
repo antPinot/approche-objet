@@ -4,6 +4,10 @@ public class TestAdressePostale {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * 
+		 * TP 1
+		 *
 		AdressePostale adr1 = new AdressePostale();
 		adr1.numeroRue = 5;
 		adr1.libelleRue = "des Maréchaux";
@@ -19,6 +23,13 @@ public class TestAdressePostale {
 		
 		System.out.println(adr1.numeroRue);
 		System.out.println(adr2.ville);
+		
+		*/
+		
+		// TP2
+		
+		AdressePostale adr1 = new AdressePostale(5, "Rue des Maréchaux", 44100, "Nantes");
+		AdressePostale adr2 = new AdressePostale(25, "Avenue Saint-Lazare", 34000, "Montpellier");
 
 	}
 

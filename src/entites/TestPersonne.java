@@ -6,6 +6,11 @@ public class TestPersonne {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * 
+		 * TP 1
+		 *
+		
 		Personne personne1 = new Personne();
 		personne1.nom = "PINOT";
 		personne1.prenom = "Anthony"; 
@@ -24,6 +29,30 @@ public class TestPersonne {
 			personne2.adressePersonne.codePostal = 666000;
 			personne2.adressePersonne.ville = "Etoile Noire";
 			
+		
+		*/
+		
+		/*
+		 * 
+		 * TP 2 Constructeur Primaire
+		 *
+		
+		Personne personne1 = new Personne ("PINOT", "Anthony");
+		Personne personne2 = new Personne("VADOR", "Dark");
+		
+		System.out.println(personne1.prenom);
+		System.out.println(personne2.nom);
+		
+		*/
+		
+		// TP 2 Constructeur secondaire
+		
+		AdressePostale adresse1 = new AdressePostale(31, "Avenue Saint-Lazare", 34000, "Montpellier");
+		AdressePostale adresse2 = new AdressePostale(666, "Boulevard du Côté Obscur", 666000, "Etoile Noire");
+		
+		
+		Personne personne1 = new Personne("PINOT", "Anthony", adresse1);
+		Personne personne2 = new Personne("VADOR", "Dark", adresse2);
 		
 		System.out.println(personne1.adressePersonne.libelleRue);
 		System.out.println(personne2.nom);
