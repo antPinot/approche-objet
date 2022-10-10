@@ -8,12 +8,14 @@ public class TestBanque {
 		
 		Compte compteEnBanque = new Compte(3008_4569_1258_4267L, 1567.25);
 		
-		System.out.println(compteEnBanque.numeroDeCompte);
-		System.out.println(compteEnBanque.soldeDuCompte);
-
+		System.out.println(compteEnBanque); //Renvoie l'adresse mémoire de l'objet(instance) compteEnBanque.
 	}
 	
-	/* Renvoie l'exception suivante : 
+	/* 
+	 * 	System.out.println(compteEnBanque.numeroDeCompte);
+		System.out.println(compteEnBanque.soldeDuCompte);
+	 * 
+	 * Renvoie l'exception suivante : 
 	 * 
 	 * Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
 		The field Compte.numeroDeCompte is not visible
