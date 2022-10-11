@@ -10,8 +10,6 @@ public class TestMethodeStatic {
 		
 		int chaineEntier = Integer.parseInt(chaine);
 		
-		System.out.println(chaineEntier);
-		
 		int a = 15;
 		
 		int b = 12;
