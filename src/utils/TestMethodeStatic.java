@@ -1,5 +1,7 @@
 package utils;
 
+//TestMethodeStatic est une classe sans variables d'instance ==> Classe Stateless
+
 public class TestMethodeStatic {
 
 	public static void main(String[] args) {

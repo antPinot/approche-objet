@@ -66,12 +66,13 @@ public class TestPersonne {
 		Personne personne3 = new Personne("César", "Jules", adresse3);
 		
 		System.out.println(personne3.renvoyerAdresse());
-		
+				
 		AdressePostale nvAdresse3 = new AdressePostale(99, "Cimetière", 10_100, "Rome");
 		
 		personne3.modifierAdresseComplete(nvAdresse3);
 		
 		System.out.println(personne3.renvoyerAdresse());
+		
 
 	}
 	

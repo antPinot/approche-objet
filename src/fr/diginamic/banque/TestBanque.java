@@ -1,6 +1,7 @@
 package fr.diginamic.banque;
 
 import fr.diginamic.banque.entites.Compte;
+import fr.diginamic.banque.entites.CompteTaux;
 
 public class TestBanque {
 
@@ -8,7 +9,13 @@ public class TestBanque {
 		
 		Compte compteEnBanque = new Compte(3008_4569_1258_4267L, 1567.25);
 		
-		System.out.println(compteEnBanque); //Renvoie l'adresse mémoire de l'objet(instance) compteEnBanque.
+		CompteTaux compteEpargne = new CompteTaux(5869_5634_7591_6713L, 12568.41, 2.7);
+		
+		Compte[] tableauComtpes = new Compte[] {compteEnBanque, compteEpargne};
+		
+		for (Compte comptes : tableauComtpes) {
+			System.out.println(comptes);
+		}
 	}
 	
 	/* 
