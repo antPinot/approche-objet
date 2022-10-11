@@ -9,4 +9,13 @@ public class Compte {
 		this.numeroDeCompte = numeroDeCompte;
 		this.soldeDuCompte = soldeDuCompte;
 	}
+	
+	// TP 6
+	
+	@Override
+	public String toString() {
+		return "Compte [numeroDeCompte=" + numeroDeCompte + ", soldeDuCompte=" + soldeDuCompte + "]";
+	}
+	
+	
 }
