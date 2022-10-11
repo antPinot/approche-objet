@@ -4,9 +4,9 @@ import entites.AdressePostale;
 
 public class Personne {
 
-	public String nom = "";
-	public String prenom = "";
-	public AdressePostale adressePersonne = null;
+	private String nom = "";
+	private String prenom = "";
+	private AdressePostale adressePersonne = null;
 
 	// TP 2
 
@@ -31,8 +31,7 @@ public class Personne {
 	// Affiche le prénom et le nom en majuscules
 	
 	public void affichageNomMajuscules() {
-		System.out.println(this.nom.toUpperCase());
-		System.out.println(this.prenom);
+		System.out.println(prenom + " " + nom.toUpperCase());	
 	}
 	
 	// Modifie la variable d'instance nom
@@ -50,11 +49,8 @@ public class Personne {
 	
 	// Modifie la variable d'instance adressePersonne
 	
-	public void modifierAdresseComplete(int numeroRue, String libelleRue, int codePostal, String ville) {
-		this.adressePersonne.numeroRue = numeroRue;
-		this.adressePersonne.libelleRue = libelleRue;
-		this.adressePersonne.codePostal = codePostal;
-		this.adressePersonne.ville = ville;
+	public void modifierAdresseComplete(AdressePostale adressePersonne) {
+		this.adressePersonne = adressePersonne;
 	}
 	
 	// Renvoie la variable d'instance nom

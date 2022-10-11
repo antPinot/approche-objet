@@ -54,19 +54,22 @@ public class TestPersonne {
 		Personne personne1 = new Personne("Pinot", "Anthony", adresse1);
 		Personne personne2 = new Personne("Vador", "Dark", adresse2);
 		
-		System.out.println(personne1.adressePersonne.libelleRue);
-		System.out.println(personne2.nom);
+		System.out.println(personne1.renvoyerAdresse());
+		System.out.println(personne2.renvoyerNom());
 		
 		//TP 3 Instances et Méthodes
+		
+		personne2.affichageNomMajuscules();
 		
 		AdressePostale adresse3 = new AdressePostale(11, "Mont Palatin", 10_000, "Rome");
 		
 		Personne personne3 = new Personne("César", "Jules", adresse3);
 		
-		System.out.println(personne3.adressePersonne.libelleRue);
+		System.out.println(personne3.renvoyerAdresse());
 		
-		personne3.modifierAdresseComplete(99, "Cimetière", 10_100, "Rome");
-		System.out.println(personne3.adressePersonne.libelleRue);
+		AdressePostale nvAdresse3 = new AdressePostale(99, "Cimetière", 10_100, "Rome");
+		
+		personne3.modifierAdresseComplete(nvAdresse3);
 		
 		System.out.println(personne3.renvoyerAdresse());
 
