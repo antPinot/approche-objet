@@ -2,22 +2,22 @@ package fr.diginamic.entites;
 
 public class Cercle {
 	
-	private float rayon;
+	private double rayon;
 	
-	public Cercle(float rayon) {
+	public Cercle(double rayon) {
 		this.rayon = rayon;
 	}
 	
-	public float getRayon() {
+	public double getRayon() {
 		return rayon;
 	}
 	
-	public float perimetre() {
-		return 2* ((float)Math.PI)*(getRayon());
+	public double perimetre() {
+		return 2* Math.PI*(getRayon());
 	}
 	
-	public float surface() {
-		return ((float)Math.PI)* (float)Math.pow(getRayon(), 2.0);
+	public double surface() {
+		return Math.PI * Math.pow(getRayon(), 2.0);
 	}
 
 }
