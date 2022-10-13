@@ -6,5 +6,10 @@ public class WC extends Piece {
 		super(superficie, numeroEtage);
 		
 	}
+	
+	@Override
+	public String getType() {
+		return "WC";
+	}
 
 }

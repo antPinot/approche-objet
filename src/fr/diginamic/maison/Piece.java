@@ -18,12 +18,13 @@ public abstract class Piece{
 	public int getNumeroEtage() {
 		return numeroEtage;
 	}
+	
+	public abstract String getType();
 
 	@Override
 	public String toString() {
 		return "Piece [superficie=" + superficie + ", numeroEtage=" + numeroEtage + "]";
 	}
-	
 	
 
 }

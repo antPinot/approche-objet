@@ -6,5 +6,10 @@ public class SalleDeBain extends Piece {
 		super(superficie, numeroEtage);
 		
 	}
+	
+	@Override
+	public String getType() {
+		return "SALLE DE BAIN";
+	}
 
 }

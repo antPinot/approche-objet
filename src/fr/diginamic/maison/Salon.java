@@ -6,5 +6,10 @@ public class Salon extends Piece {
 		super(superficie, numeroEtage);
 		
 	}
+	
+	@Override
+	public String getType() {
+		return "SALON";
+	}
 
 }

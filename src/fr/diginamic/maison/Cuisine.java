@@ -7,4 +7,11 @@ public class Cuisine extends Piece {
 		
 	}
 
+	@Override
+	public String getType() {
+		return "CUISINE";
+	}
+	
+	
+
 }
