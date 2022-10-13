@@ -4,20 +4,16 @@ import java.util.Arrays;
 
 public class CalculMoyenne {
 
-	private double[] tableau = new double[1]; // Attribut d'instance "tableau" de type double[]
+	private double[] tableau = new double[0]; // Attribut d'instance "tableau" de type double[]
 
 	public void ajout(double valeur) {
 
-		if (tableau.length == 1 && tableau[0] == 0) {
-			tableau[0] = valeur;
-		} else {
-			double[] nvTableau = new double[tableau.length + 1];
-			for (int i = 0; i < tableau.length; i++) {
-				nvTableau[i] = tableau[i];
-			}
-			nvTableau[tableau.length] = valeur;
-			this.tableau = nvTableau;
+		double[] nvTableau = new double[tableau.length + 1];
+		for (int i = 0; i < tableau.length; i++) {
+			nvTableau[i] = tableau[i];
 		}
+		nvTableau[nvTableau.length - 1] = valeur;
+		this.tableau = nvTableau;
 	}
 
 	public double calcul() {
