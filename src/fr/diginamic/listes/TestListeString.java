@@ -8,6 +8,14 @@ public class TestListeString {
 	public static void main(String[] args) {
 
 		List<String> villes = new ArrayList<String>() {
+
+			/**
+			 * POSER LA QUESTION A RICHARD
+			 * 
+			 * private static final long serialVersionUID = 1L;
+			 * 
+			 */
+
 			{
 				add("Nice");
 				add("Carcassonne");
@@ -21,7 +29,7 @@ public class TestListeString {
 		};
 
 		// Rechercher la ville avec le plus grand nombre de lettres
-		
+
 		int maxTaille = villes.get(0).length();
 		String maxVille = villes.get(0);
 		for (int i = 0; i < villes.size(); i++) {
@@ -39,8 +47,17 @@ public class TestListeString {
 		}
 
 		System.out.println(villes);
+		
+		// Retirer de la liste les villes commençant par la lettre N
+
+		for (int i = 0; i < villes.size(); i++) {
+			if (((villes.get(i)).charAt(0)) == 'N') {
+				villes.remove(i);
+			}
+		}
+		
+		System.out.println(villes);
+
 	}
-	
-	//TODO Supprimer de la liste les villes dont le nom commence par la lettre N
 
 }
