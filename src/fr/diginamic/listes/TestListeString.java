@@ -10,13 +10,6 @@ public class TestListeString {
 
 		List<String> villes = new ArrayList<String>() {
 
-			/**
-			 * POSER LA QUESTION A RICHARD
-			 * 
-			 * private static final long serialVersionUID = 1L;
-			 * 
-			 */
-
 			{
 				add("Nice");
 				add("Carcassonne");
