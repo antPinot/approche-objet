@@ -1,4 +1,4 @@
-package fr.diginamic.listes;
+package fr.diginamic.sets;
 
 public class Pays {
 	

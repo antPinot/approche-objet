@@ -1,4 +1,4 @@
-package fr.diginamic.listes;
+package fr.diginamic.sets;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;
@@ -47,7 +47,7 @@ public class TestPays {
 		
 		DecimalFormat formatteur = new DecimalFormat(".00");
 		
-		System.out.println("Le pays avec le PIB total le plus important est : " + maxPibTotalPays + " avec " + formatteur.format(maxPibTotal) + " $");
+		System.out.println("Le pays avec le PIB total le plus important est : " + maxPibTotalPays + " avec " + String.format("%.2e", maxPibTotal) + " $");
 		
 		double minPibTotal = Double.MAX_VALUE;
 		String minPibTotalPays = "";
@@ -60,7 +60,7 @@ public class TestPays {
 			}
 		}
 		
-		System.out.println("Le pays avec le PIB total le moins important est : " + minPibTotalPays + " avec " + formatteur.format(minPibTotal) + " $ et va être supprimé de la liste");
+		System.out.println("Le pays avec le PIB total le moins important est : " + minPibTotalPays + " avec " + String.format("%.2e", minPibTotal) + " $ et va être supprimé de la liste");
 		
 		paysSet.remove(minPibPays);
 		
