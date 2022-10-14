@@ -54,12 +54,12 @@ public class TestListeInt {
 		System.out.println("Le maximum (Collection Framework) de la liste est " + Collections.max(listeEntier));
 		System.out.println("Le minimum (Collection Framework) de la liste est " + Collections.min(listeEntier));
 
-		// Suppression du plus petit élément de la liste
+		// Suppression du plus petit élément de la liste (methode remove en dehors d'une boucle for)
 
 		listeEntier.remove(listeEntier.indexOf(min));
 
 		System.out.println(listeEntier);
-
+		
 		// Recherche des éléments négatifs et conversion en positif (valeur absolue)
 
 		for (int i = 0; i < listeEntier.size(); i++) {

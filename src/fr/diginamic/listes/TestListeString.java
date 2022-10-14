@@ -1,6 +1,7 @@
 package fr.diginamic.listes;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class TestListeString {
@@ -38,7 +39,7 @@ public class TestListeString {
 				maxVille = villes.get(i);
 			}
 		}
-		System.out.println("La ville qui a le nom le plus long est " + maxVille + " avec " + maxTaille + " lettres");
+		System.out.println("La ville qui a le nom le plus long est :" + maxVille + " avec " + maxTaille + " lettres");
 
 		// Noms de villes en majuscules
 
@@ -48,7 +49,7 @@ public class TestListeString {
 
 		System.out.println(villes);
 		
-		// Retirer de la liste les villes commençant par la lettre N
+		// Retirer de la liste les villes commençant par la lettre N (déconseillé)
 
 		for (int i = 0; i < villes.size(); i++) {
 			if (((villes.get(i)).charAt(0)) == 'N') {
@@ -56,7 +57,19 @@ public class TestListeString {
 			}
 		}
 		
-		System.out.println(villes);
+		System.out.println("Liste des villes après retrait par une boucle for :" + villes);
+		
+		// Retirer de la liste les villes commençant par la lettre N avec un iterator
+		
+		Iterator<String> iterator = villes.iterator();
+		while (iterator.hasNext()) {
+			String ville = iterator.next();
+			if (ville.charAt(0) == 'N') {
+				iterator.remove();
+			}
+		}
+			
+		System.out.println("Liste des villes après retrait par un iterator " + villes);
 
 	}
 

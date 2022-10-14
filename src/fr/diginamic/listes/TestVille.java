@@ -58,6 +58,8 @@ public class TestVille {
 		
 		System.out.println(villesEnsemble);
 		
+		// Modifier la valeur 
+		
 		for (int i = 0; i < villesEnsemble.size(); i++) {
 			if (((villesEnsemble.get(i)).getNbHabitants() > 100_000)) {		
 				(villesEnsemble.get(i)).setNom((villesEnsemble.get(i).getNom()).toUpperCase());
