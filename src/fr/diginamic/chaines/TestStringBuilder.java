@@ -16,22 +16,25 @@ public class TestStringBuilder {
 		
 		long end = System.currentTimeMillis();
 		
-		System.out.println(builder);
+		//System.out.println(builder);
 		
-		System.out.println(end - start); // 24 ms
+		System.out.println("Durée d'éxécution : " + (end - start) + " ms"); // 10 ms
 		
 		// Avec la classe String et le "+"
 		
 		
 		long start1 = System.currentTimeMillis();
 		
+		String chainePlus = "";
 		for (int i=1; i<=100_000; i++) {
-			System.out.println(+ i);;
+			chainePlus += i;
 		}
+		
+		//System.out.println(chainePlus);
 		
 		long end1 = System.currentTimeMillis();
 		
-		System.out.println(end1 - start1); // 718 ms
+		System.out.println("Durée d'éxécution : " + (end1 - start1) + " ms"); // Environ 7s
 		
 
 	}
