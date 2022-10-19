@@ -3,7 +3,7 @@ package fr.diginamic.listes;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ville {
+public class Ville{
 	
 	//private List<Ville> villes = new ArrayList<Ville>();
 	
@@ -14,6 +14,16 @@ public class Ville {
 	public Ville(String nom, int nbHabitants) {
 		this.nom = nom;
 		this.nbHabitants = nbHabitants;
+	}
+	
+	@Override
+	public boolean equals(Object object) {
+		
+		if (!(object instanceof Ville)) {
+			return false;
+		}		
+		Ville aComparer = (Ville) object;
+		return nom.equals(aComparer.getNom()) && (nbHabitants == aComparer.nbHabitants);
 	}
 
 	
