@@ -7,25 +7,25 @@ public class TestVille {
 
 	public static void main(String[] args) {
 		
-		Ville Nice = new Ville("Nice", 343_000);
-		Ville Carcassonne = new Ville("Carcassonne", 47_800);
-		Ville Narbonne = new Ville("Narbonne", 53_400);
-		Ville Lyon = new Ville("Lyon", 484_000);
-		Ville Foix = new Ville("Foix", 9700);
-		Ville Pau = new Ville("Pau", 77_200);
-		Ville Marseille = new Ville("Marseille", 850_700);
-		Ville Tarbes = new Ville("Tarbes", 40_600);
+		Ville nice = new Ville("Nice", 343_000);
+		Ville carcassonne = new Ville("Carcassonne", 47_800);
+		Ville narbonne = new Ville("Narbonne", 53_400);
+		Ville lyon = new Ville("Lyon", 484_000);
+		Ville foix = new Ville("Foix", 9700);
+		Ville pau = new Ville("Pau", 77_200);
+		Ville marseille = new Ville("Marseille", 850_700);
+		Ville tarbes = new Ville("Tarbes", 40_600);
 		
 		List<Ville> villesEnsemble = new ArrayList<Ville>() {
 			{
-				add(Nice);
-				add(Carcassonne);
-				add(Narbonne);
-				add(Lyon);
-				add(Foix);
-				add(Pau);
-				add(Marseille);
-				add(Tarbes);
+				add(nice);
+				add(carcassonne);
+				add(narbonne);
+				add(lyon);
+				add(foix);
+				add(pau);
+				add(marseille);
+				add(tarbes);
 			}
 		};
 		

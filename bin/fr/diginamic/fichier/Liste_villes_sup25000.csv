@@ -1,0 +1,361 @@
+Nom de la commune;Code département;Nom de la région;Nom de la commune
+Bourg-en-Bresse;01;Auvergne-Rhône-Alpes;41365
+Laon;02;Hauts-de-France;25193
+Saint-Quentin;02;Hauts-de-France;54443
+Soissons;02;Hauts-de-France;28466
+Montluçon;03;Auvergne-Rhône-Alpes;36147
+Gap;05;Provence-Alpes-Côte d'Azur;40805
+Antibes;06;Provence-Alpes-Côte d'Azur;73798
+Cagnes-sur-Mer;06;Provence-Alpes-Côte d'Azur;49902
+Cannes;06;Provence-Alpes-Côte d'Azur;74152
+Le Cannet;06;Provence-Alpes-Côte d'Azur;41612
+Grasse;06;Provence-Alpes-Côte d'Azur;50677
+Menton;06;Provence-Alpes-Côte d'Azur;28486
+Nice;06;Provence-Alpes-Côte d'Azur;342637
+Saint-Laurent-du-Var;06;Provence-Alpes-Côte d'Azur;28645
+Vallauris;06;Provence-Alpes-Côte d'Azur;26618
+Charleville-Mézières;08;Grand Est;46682
+Troyes;10;Grand Est;60640
+Carcassonne;11;Occitanie;45895
+Narbonne;11;Occitanie;53594
+Aix-en-Provence;13;Provence-Alpes-Côte d'Azur;143006
+Arles;13;Provence-Alpes-Côte d'Azur;52857
+Aubagne;13;Provence-Alpes-Côte d'Azur;45290
+La Ciotat;13;Provence-Alpes-Côte d'Azur;35366
+Istres;13;Provence-Alpes-Côte d'Azur;42925
+Marignane;13;Provence-Alpes-Côte d'Azur;33658
+Marseille;13;Provence-Alpes-Côte d'Azur;862211
+Martigues;13;Provence-Alpes-Côte d'Azur;48783
+Miramas;13;Provence-Alpes-Côte d'Azur;25756
+Salon-de-Provence;13;Provence-Alpes-Côte d'Azur;45574
+Vitrolles;13;Provence-Alpes-Côte d'Azur;33880
+Caen;14;Normandie;105403
+Aurillac;15;Auvergne-Rhône-Alpes;25954
+Angoulême;16;Nouvelle-Aquitaine;41935
+La Rochelle;17;Nouvelle-Aquitaine;75736
+Saintes;17;Nouvelle-Aquitaine;25355
+Bourges;18;Centre-Val de Loire;65555
+Vierzon;18;Centre-Val de Loire;26365
+Brive-la-Gaillarde;19;Nouvelle-Aquitaine;47004
+Ajaccio;2A;Corse;69075
+Bastia;2B;Corse;44829
+Dijon;21;Bourgogne-Franche-Comté;155090
+Saint-Brieuc;22;Bretagne;44999
+Bergerac;24;Nouvelle-Aquitaine;27269
+Périgueux;24;Nouvelle-Aquitaine;29912
+Besançon;25;Bourgogne-Franche-Comté;116466
+Montbéliard;25;Bourgogne-Franche-Comté;25304
+Montélimar;26;Auvergne-Rhône-Alpes;38692
+Romans-sur-Isère;26;Auvergne-Rhône-Alpes;33310
+Valence;26;Auvergne-Rhône-Alpes;62477
+Évreux;27;Normandie;48899
+Chartres;28;Centre-Val de Loire;38752
+Dreux;28;Centre-Val de Loire;30977
+Brest;29;Bretagne;139342
+Quimper;29;Bretagne;63405
+Alès;30;Occitanie;39970
+Nîmes;30;Occitanie;151001
+Colomiers;31;Occitanie;38716
+Muret;31;Occitanie;25207
+Toulouse;31;Occitanie;475438
+Tournefeuille;31;Occitanie;26436
+Bègles;33;Nouvelle-Aquitaine;27713
+Bordeaux;33;Nouvelle-Aquitaine;252040
+Gradignan;33;Nouvelle-Aquitaine;25563
+Mérignac;33;Nouvelle-Aquitaine;70317
+Pessac;33;Nouvelle-Aquitaine;61859
+Saint-Médard-en-Jalles;33;Nouvelle-Aquitaine;30956
+Talence;33;Nouvelle-Aquitaine;42712
+La Teste-de-Buch;33;Nouvelle-Aquitaine;26168
+Villenave-d'Ornon;33;Nouvelle-Aquitaine;32750
+Agde;34;Occitanie;27681
+Béziers;34;Occitanie;76493
+Lunel;34;Occitanie;26002
+Montpellier;34;Occitanie;281613
+Sète;34;Occitanie;43609
+Rennes;35;Bretagne;216268
+Saint-Malo;35;Bretagne;46005
+Châteauroux;36;Centre-Val de Loire;44088
+Joué-lès-Tours;37;Centre-Val de Loire;37505
+Tours;37;Centre-Val de Loire;136565
+Bourgoin-Jallieu;38;Auvergne-Rhône-Alpes;27651
+Échirolles;38;Auvergne-Rhône-Alpes;35855
+Grenoble;38;Auvergne-Rhône-Alpes;158180
+Saint-Martin-d'Hères;38;Auvergne-Rhône-Alpes;38634
+Vienne;38;Auvergne-Rhône-Alpes;29454
+Mont-de-Marsan;40;Nouvelle-Aquitaine;29885
+Blois;41;Centre-Val de Loire;45687
+Roanne;42;Auvergne-Rhône-Alpes;34685
+Saint-Chamond;42;Auvergne-Rhône-Alpes;35339
+Saint-Étienne;42;Auvergne-Rhône-Alpes;171924
+Nantes;44;Pays de la Loire;306694
+Orvault;44;Pays de la Loire;25931
+Rezé;44;Pays de la Loire;40368
+Saint-Herblain;44;Pays de la Loire;46603
+Saint-Nazaire;44;Pays de la Loire;69719
+Saint-Sébastien-sur-Loire;44;Pays de la Loire;26872
+Orléans;45;Centre-Val de Loire;114782
+Agen;47;Nouvelle-Aquitaine;33569
+Angers;49;Pays de la Loire;151229
+Cholet;49;Pays de la Loire;53718
+Saumur;49;Pays de la Loire;27125
+Sèvremoine;49;Pays de la Loire;25681
+Cherbourg-en-Cotentin;50;Normandie;80076
+Châlons-en-Champagne;51;Grand Est;44980
+Reims;51;Grand Est;183113
+Laval;53;Pays de la Loire;49492
+Nancy;54;Grand Est;104592
+Vandœuvre-lès-Nancy;54;Grand Est;30182
+Lorient;56;Bretagne;57274
+Vannes;56;Bretagne;53218
+Metz;57;Grand Est;117890
+Thionville;57;Grand Est;40586
+Nevers;58;Bourgogne-Franche-Comté;33235
+Armentières;59;Hauts-de-France;25015
+Cambrai;59;Hauts-de-France;32668
+Douai;59;Hauts-de-France;39657
+Dunkerque;59;Hauts-de-France;88108
+Lambersart;59;Hauts-de-France;27618
+Lille;59;Hauts-de-France;232440
+Marcq-en-Barœul;59;Hauts-de-France;38805
+Maubeuge;59;Hauts-de-France;29679
+Roubaix;59;Hauts-de-France;96412
+Tourcoing;59;Hauts-de-France;97476
+Valenciennes;59;Hauts-de-France;43680
+Villeneuve-d'Ascq;59;Hauts-de-France;62358
+Wattrelos;59;Hauts-de-France;41341
+Beauvais;60;Hauts-de-France;56020
+Compiègne;60;Hauts-de-France;40258
+Creil;60;Hauts-de-France;35747
+Alençon;61;Normandie;26129
+Arras;62;Hauts-de-France;40883
+Béthune;62;Hauts-de-France;25186
+Boulogne-sur-Mer;62;Hauts-de-France;41669
+Calais;62;Hauts-de-France;74978
+Hénin-Beaumont;62;Hauts-de-France;25901
+Lens;62;Hauts-de-France;30689
+Liévin;62;Hauts-de-France;30936
+Clermont-Ferrand;63;Auvergne-Rhône-Alpes;142686
+Anglet;64;Nouvelle-Aquitaine;38663
+Bayonne;64;Nouvelle-Aquitaine;50589
+Pau;64;Nouvelle-Aquitaine;77251
+Tarbes;65;Occitanie;40318
+Perpignan;66;Occitanie;121875
+Haguenau;67;Grand Est;34460
+Illkirch-Graffenstaden;67;Grand Est;26837
+Schiltigheim;67;Grand Est;31811
+Strasbourg;67;Grand Est;279284
+Colmar;68;Grand Est;69899
+Mulhouse;68;Grand Est;108999
+Bron;69;Auvergne-Rhône-Alpes;41060
+Caluire-et-Cuire;69;Auvergne-Rhône-Alpes;42915
+Décines-Charpieu;69;Auvergne-Rhône-Alpes;27851
+Lyon 1er Arrondissement;69;Auvergne-Rhône-Alpes;29575
+Lyon 2e Arrondissement;69;Auvergne-Rhône-Alpes;30435
+Lyon 3e Arrondissement;69;Auvergne-Rhône-Alpes;101992
+Lyon 4e Arrondissement;69;Auvergne-Rhône-Alpes;36080
+Lyon 5e Arrondissement;69;Auvergne-Rhône-Alpes;48929
+Lyon 6e Arrondissement;69;Auvergne-Rhône-Alpes;51416
+Lyon 7e Arrondissement;69;Auvergne-Rhône-Alpes;82045
+Lyon 8e Arrondissement;69;Auvergne-Rhône-Alpes;84517
+Lyon 9e Arrondissement;69;Auvergne-Rhône-Alpes;50706
+Meyzieu;69;Auvergne-Rhône-Alpes;32996
+Oullins;69;Auvergne-Rhône-Alpes;26512
+Rillieux-la-Pape;69;Auvergne-Rhône-Alpes;29885
+Saint-Priest;69;Auvergne-Rhône-Alpes;45844
+Vaulx-en-Velin;69;Auvergne-Rhône-Alpes;48497
+Vénissieux;69;Auvergne-Rhône-Alpes;65405
+Villefranche-sur-Saône;69;Auvergne-Rhône-Alpes;37266
+Villeurbanne;69;Auvergne-Rhône-Alpes;149019
+Chalon-sur-Saône;71;Bourgogne-Franche-Comté;45446
+Mâcon;71;Bourgogne-Franche-Comté;33427
+Le Mans;72;Pays de la Loire;142991
+Aix-les-Bains;73;Auvergne-Rhône-Alpes;29799
+Chambéry;73;Auvergne-Rhône-Alpes;59183
+Annecy;74;Auvergne-Rhône-Alpes;126419
+Annemasse;74;Auvergne-Rhône-Alpes;35041
+Thonon-les-Bains;74;Auvergne-Rhône-Alpes;35132
+Paris;75;Île-de-France;2190327
+Dieppe;76;Normandie;29606
+Le Grand-Quevilly;76;Normandie;25897
+Le Havre;76;Normandie;170352
+Rouen;76;Normandie;110117
+Saint-Étienne-du-Rouvray;76;Normandie;28696
+Sotteville-lès-Rouen;76;Normandie;28991
+Bussy-Saint-Georges;77;Île-de-France;26971
+Chelles;77;Île-de-France;54196
+Meaux;77;Île-de-France;54331
+Melun;77;Île-de-France;40228
+Pontault-Combault;77;Île-de-France;38326
+Savigny-le-Temple;77;Île-de-France;30097
+Villeparisis;77;Île-de-France;26327
+Chatou;78;Île-de-France;31134
+Le Chesnay;78;Île-de-France;28001
+Conflans-Sainte-Honorine;78;Île-de-France;35404
+Élancourt;78;Île-de-France;25529
+Guyancourt;78;Île-de-France;28385
+Houilles;78;Île-de-France;31689
+Mantes-la-Jolie;78;Île-de-France;43969
+Montigny-le-Bretonneux;78;Île-de-France;32986
+Les Mureaux;78;Île-de-France;32575
+Plaisir;78;Île-de-France;31680
+Poissy;78;Île-de-France;37146
+Rambouillet;78;Île-de-France;26202
+Saint-Germain-en-Laye;78;Île-de-France;39982
+Sartrouville;78;Île-de-France;52648
+Trappes;78;Île-de-France;32679
+Versailles;78;Île-de-France;85346
+Niort;79;Nouvelle-Aquitaine;59005
+Amiens;80;Hauts-de-France;133755
+Albi;81;Occitanie;49024
+Castres;81;Occitanie;41338
+Montauban;82;Occitanie;60444
+Draguignan;83;Provence-Alpes-Côte d'Azur;40053
+Fréjus;83;Provence-Alpes-Côte d'Azur;53168
+La Garde;83;Provence-Alpes-Côte d'Azur;25236
+Hyères;83;Provence-Alpes-Côte d'Azur;55772
+Saint-Raphaël;83;Provence-Alpes-Côte d'Azur;35222
+La Seyne-sur-Mer;83;Provence-Alpes-Côte d'Azur;64620
+Six-Fours-les-Plages;83;Provence-Alpes-Côte d'Azur;33250
+Toulon;83;Provence-Alpes-Côte d'Azur;169634
+Avignon;84;Provence-Alpes-Côte d'Azur;92378
+Carpentras;84;Provence-Alpes-Côte d'Azur;28554
+Cavaillon;84;Provence-Alpes-Côte d'Azur;26492
+Orange;84;Provence-Alpes-Côte d'Azur;29212
+La Roche-sur-Yon;85;Pays de la Loire;53741
+Châtellerault;86;Nouvelle-Aquitaine;32057
+Poitiers;86;Nouvelle-Aquitaine;87961
+Limoges;87;Nouvelle-Aquitaine;132660
+Épinal;88;Grand Est;31558
+Auxerre;89;Bourgogne-Franche-Comté;34846
+Sens;89;Bourgogne-Franche-Comté;25913
+Belfort;90;Bourgogne-Franche-Comté;48973
+Athis-Mons;91;Île-de-France;33691
+Brétigny-sur-Orge;91;Île-de-France;26275
+Brunoy;91;Île-de-France;26055
+Corbeil-Essonnes;91;Île-de-France;51049
+Draveil;91;Île-de-France;29279
+Évry;91;Île-de-France;54663
+Grigny;91;Île-de-France;28958
+Massy;91;Île-de-France;49924
+Palaiseau;91;Île-de-France;34120
+Ris-Orangis;91;Île-de-France;28796
+Sainte-Geneviève-des-Bois;91;Île-de-France;35859
+Savigny-sur-Orge;91;Île-de-France;36307
+Vigneux-sur-Seine;91;Île-de-France;31256
+Viry-Châtillon;91;Île-de-France;30575
+Yerres;91;Île-de-France;28820
+Antony;92;Île-de-France;62210
+Asnières-sur-Seine;92;Île-de-France;85973
+Bagneux;92;Île-de-France;39763
+Bois-Colombes;92;Île-de-France;28323
+Boulogne-Billancourt;92;Île-de-France;119645
+Châtenay-Malabry;92;Île-de-France;33016
+Châtillon;92;Île-de-France;36779
+Clamart;92;Île-de-France;52528
+Clichy;92;Île-de-France;60387
+Colombes;92;Île-de-France;85368
+Courbevoie;92;Île-de-France;81720
+La Garenne-Colombes;92;Île-de-France;29248
+Gennevilliers;92;Île-de-France;46653
+Issy-les-Moulineaux;92;Île-de-France;68395
+Levallois-Perret;92;Île-de-France;63462
+Malakoff;92;Île-de-France;29973
+Meudon;92;Île-de-France;45328
+Montrouge;92;Île-de-France;49128
+Nanterre;92;Île-de-France;94258
+Neuilly-sur-Seine;92;Île-de-France;60580
+Le Plessis-Robinson;92;Île-de-France;29028
+Puteaux;92;Île-de-France;44662
+Rueil-Malmaison;92;Île-de-France;78195
+Saint-Cloud;92;Île-de-France;30193
+Suresnes;92;Île-de-France;48620
+Vanves;92;Île-de-France;27846
+Aubervilliers;93;Île-de-France;86061
+Aulnay-sous-Bois;93;Île-de-France;84662
+Bagnolet;93;Île-de-France;35864
+Le Blanc-Mesnil;93;Île-de-France;55987
+Bobigny;93;Île-de-France;52337
+Bondy;93;Île-de-France;53193
+Clichy-sous-Bois;93;Île-de-France;29835
+La Courneuve;93;Île-de-France;42485
+Drancy;93;Île-de-France;70269
+Épinay-sur-Seine;93;Île-de-France;55593
+Gagny;93;Île-de-France;39148
+Livry-Gargan;93;Île-de-France;44466
+Montfermeil;93;Île-de-France;26085
+Montreuil;93;Île-de-France;108402
+Neuilly-sur-Marne;93;Île-de-France;34685
+Noisy-le-Grand;93;Île-de-France;66659
+Noisy-le-Sec;93;Île-de-France;43537
+Pantin;93;Île-de-France;55342
+Pierrefitte-sur-Seine;93;Île-de-France;29608
+Romainville;93;Île-de-France;26510
+Rosny-sous-Bois;93;Île-de-France;45411
+Saint-Denis;93;Île-de-France;111354
+Saint-Ouen;93;Île-de-France;49664
+Sevran;93;Île-de-France;50629
+Stains;93;Île-de-France;39618
+Tremblay-en-France;93;Île-de-France;35691
+Villemomble;93;Île-de-France;30051
+Villepinte;93;Île-de-France;36656
+Alfortville;94;Île-de-France;43886
+Cachan;94;Île-de-France;30208
+Champigny-sur-Marne;94;Île-de-France;77409
+Charenton-le-Pont;94;Île-de-France;30500
+Choisy-le-Roi;94;Île-de-France;44450
+Créteil;94;Île-de-France;89392
+Fontenay-sous-Bois;94;Île-de-France;53424
+Fresnes;94;Île-de-France;27416
+L' Haÿ-les-Roses;94;Île-de-France;31189
+Ivry-sur-Seine;94;Île-de-France;60771
+Le Kremlin-Bicêtre;94;Île-de-France;25292
+Limeil-Brévannes;94;Île-de-France;26703
+Maisons-Alfort;94;Île-de-France;55289
+Nogent-sur-Marne;94;Île-de-France;31947
+Le Perreux-sur-Marne;94;Île-de-France;33729
+Saint-Maur-des-Fossés;94;Île-de-France;74893
+Sucy-en-Brie;94;Île-de-France;26279
+Thiais;94;Île-de-France;29006
+Villejuif;94;Île-de-France;55478
+Villeneuve-Saint-Georges;94;Île-de-France;32966
+Villiers-sur-Marne;94;Île-de-France;29226
+Vincennes;94;Île-de-France;49853
+Vitry-sur-Seine;94;Île-de-France;92755
+Argenteuil;95;Île-de-France;110468
+Bezons;95;Île-de-France;28976
+Cergy;95;Île-de-France;63820
+Eaubonne;95;Île-de-France;25161
+Ermont;95;Île-de-France;29112
+Franconville;95;Île-de-France;36112
+Garges-lès-Gonesse;95;Île-de-France;42598
+Gonesse;95;Île-de-France;26336
+Goussainville;95;Île-de-France;30948
+Herblay;95;Île-de-France;29066
+Pontoise;95;Île-de-France;30690
+Sannois;95;Île-de-France;26537
+Sarcelles;95;Île-de-France;57781
+Taverny;95;Île-de-France;26296
+Villiers-le-Bel;95;Île-de-France;27247
+Les Abymes;971;Guadeloupe;54260
+Baie-Mahault;971;Guadeloupe;30868
+Le Gosier;971;Guadeloupe;26666
+Fort-de-France;972;Martinique;81017
+Le Lamentin;972;Martinique;40175
+Cayenne;973;Guyane;60580
+Kourou;973;Guyane;26522
+Matoury;973;Guyane;32440
+Remire-Montjoly;973;Guyane;25711
+Saint-Laurent-du-Maroni;973;Guyane;43799
+Le Port;974;La Réunion;34810
+La Possession;974;La Réunion;32973
+Saint-André;974;La Réunion;55628
+Saint-Benoît;974;La Réunion;38142
+Saint-Denis;974;La Réunion;147920
+Saint-Joseph;974;La Réunion;37629
+Saint-Leu;974;La Réunion;33697
+Saint-Louis;974;La Réunion;53220
+Saint-Paul;974;La Réunion;105482
+Saint-Pierre;974;La Réunion;84169
+Sainte-Marie;974;La Réunion;33160
+Le Tampon;974;La Réunion;77283

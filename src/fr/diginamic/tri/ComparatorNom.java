@@ -7,7 +7,7 @@ public class ComparatorNom implements Comparator<Ville>{
 	@Override
 	public int compare(Ville ville1, Ville ville2) {
 		
-		int result = ville1.getNom().compareTo(ville2.getNom());
+		int result = ville1.getNom().compareTo(ville2.getNom()); // On utilise le compareTo de la classe String
 		
 		return result;
 	}

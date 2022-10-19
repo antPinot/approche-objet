@@ -23,7 +23,7 @@ public class Theatre {
 			this.income = this.nbCustomers * price;
 		}
 		else {
-			System.out.println("La capacité maximale du théâtre est atteinte, il va falloir faire des choix");
+			System.out.println("\nLa capacité maximale du " + name + " est atteinte, il va falloir faire des choix");
 		}
 			
 	}
@@ -44,5 +44,9 @@ public class Theatre {
 		return income;
 	}
 	
+	
+	public String toString() {
+		return "\nLe nombre total de clients inscrits au " + name + " est de " + nbCustomers + " et la recette totale de l'établissement est de " + income + " euro";
+	}
 
 }

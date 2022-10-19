@@ -38,13 +38,14 @@ public class MapVilles {
 			}
 		}
 		
-		System.out.println(villesMap);
+		// System.out.println(villesMap);
 		
 		System.out.println("La ville la moins peuplée est " + minHabitantsVille + " avec " + minHabitants + " habitants, elle va être supprimée du dictionnaire");
 		
 		villesMap.remove(minHabitantsVille);
 		
-		System.out.println(villesMap);
+		for (Ville villes : villesMap.values())
+		System.out.println(villes);
 
 	}
 

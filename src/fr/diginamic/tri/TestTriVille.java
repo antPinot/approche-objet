@@ -20,7 +20,7 @@ public class TestTriVille {
 		
 		List<Ville> listeTriVilles = new ArrayList<>(Arrays.asList(nice, carcassonne, narbonne, lyon, foix, pau, marseille, tarbes));
 		
-		// Tri par nb d'habitants via Comparable
+		// Tri par critère sélectionné via la méthode compareTo (nom ou nbHabitants) de l'interface Comparable
 		
 		System.out.println("Tri par nb d'habitants via Comparable\n");
 		

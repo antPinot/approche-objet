@@ -25,6 +25,13 @@ public class Salarie {
 	public double getSalaire() {
 		return salaire;
 	}
+
+	@Override
+	public String toString() {
+		return "Salarie [nom=" + nom + ", prenom=" + prenom + ", salaire=" + salaire + "]";
+	}
+	
+	
 	
 
 }

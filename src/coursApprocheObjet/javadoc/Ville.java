@@ -1,20 +1,35 @@
-package fr.diginamic.listes;
+package coursApprocheObjet.javadoc;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import fr.diginamic.testenumeration.Continent;
 
+/**
+ * Représente le concept de ville 
+ * 
+ * @author antPinot
+ *
+ */
+
+
 public class Ville {
 
 	// private List<Ville> villes = new ArrayList<Ville>();
 
+	/** Nom de la ville */
 	private String nom;
 
+	/** Nombre d'habitants */
 	private int nbHabitants;
 
 	private Continent continent;
 
+	/**
+	 * 
+	 * @param nom nom de la ville
+	 * @param nbHabitants
+	 */
 	public Ville(String nom, int nbHabitants) {
 		this.nom = nom;
 		this.nbHabitants = nbHabitants;

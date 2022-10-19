@@ -3,6 +3,7 @@ package fr.diginamic.essais;
 import fr.diginamic.maison.Chambre;
 import fr.diginamic.maison.Cuisine;
 import fr.diginamic.maison.Maison;
+import fr.diginamic.maison.Piece;
 import fr.diginamic.maison.SalleDeBain;
 import fr.diginamic.maison.Salon;
 import fr.diginamic.maison.WC;
@@ -20,6 +21,15 @@ public class TestMaison {
 		SalleDeBain salleDeBain2 = new SalleDeBain(12, 0);
 		WC toilettes1 = new WC(5, 1);
 		WC toilettes2 = new WC(3, 0);
+		
+		// Déclaration avec classe mère
+		
+		/*
+		 * Piece cuisine = new Cuisine(25,0);
+		 * 
+		 * Piece chambrePrincipale = new Chambre (15,1);
+		 */
+		
 		
 		Salon cave = new Salon(52, -1);
 		WC bcpTropPetit = new WC(-24, 0);

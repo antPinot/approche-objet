@@ -1,5 +1,7 @@
 package fr.diginamic.banque.entites;
 
+import java.text.DecimalFormat;
+
 public class TestOperationBanque {
 
 	public static void main(String[] args) {
@@ -14,14 +16,18 @@ public class TestOperationBanque {
 		double nvMontant = 0.0;
 		
 		for (Operation operations : operationsTab) {
-			if (operations.getType() == "CREDIT") {
+			if (operations.getType().equals("CREDIT")) {		// Methode EQUALS pour les objets, on réserve le " ==" pour les types primitifs.
 				nvMontant += operations.getMontant();
 			}else {
 				nvMontant -= operations.getMontant();
 			}
 			System.out.println(operations);
 		}
-		System.out.println(nvMontant);
+		
+		DecimalFormat formatter = new DecimalFormat(".00");
+		String nvMontantFormate = formatter.format(nvMontant);
+		
+		System.out.println(nvMontantFormate);
 	}
 
 }

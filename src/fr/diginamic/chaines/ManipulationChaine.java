@@ -6,7 +6,7 @@ public class ManipulationChaine {
 
 	public static void main(String[] args) {
 		
-		String chaine = "Durand; Marcel; 2 523.25";
+		String chaine = "Durand; Marcel; 2 523.5";
 		
 		System.out.println(chaine.charAt(0));
 		
@@ -22,7 +22,7 @@ public class ManipulationChaine {
 		
 		System.out.println(chaineMaj.toLowerCase());
 		
-		String chaineFormatee = chaine.replace("2 523.25", "2523.25");
+		String chaineFormatee = chaine.replace("2 523.5", "2523.5");
 		
 		String chaineDecoupee[] = chaineFormatee.split(";");
 		
@@ -34,9 +34,7 @@ public class ManipulationChaine {
 		
 		Salarie salarie1 = new Salarie(chaineDecoupee[0], chaineDecoupee[1], salaire);
 		
-		System.out.println(salarie1.getNom());
-		System.out.println(salarie1.getPrenom());
-		System.out.println(salarie1.getSalaire());
+		System.out.println(salarie1);
 				
 		
 	}

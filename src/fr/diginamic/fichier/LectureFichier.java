@@ -49,7 +49,7 @@ public class LectureFichier {
 			valeur++;
 		}
 
-		System.out.println(contenu.get(0));
+		// System.out.println(contenu.get(0));
 
 		for (String lignes : contenu) {
 			if (lignes != contenu.get(0)) {
@@ -67,6 +67,8 @@ public class LectureFichier {
 		}*/
 		
 		List<String> listeVillesTriees = new ArrayList<>();
+		String[] enTete = contenu.get(0).split(";");
+		listeVillesTriees.add(enTete[clesMap.get("Nom de la commune")] + ";" +enTete[clesMap.get("Code département")] + ";" + enTete[clesMap.get("Nom de la région")] + ";" + enTete[clesMap.get("Nom de la commune")]);
 		
 		for (Ville villesTriees : listeVilles) {
 			if (villesTriees.getPopulation() > 25000) {
@@ -87,6 +89,7 @@ public class LectureFichier {
 		Path pathFileToCreate = Paths.get("C:/Users/Saranthony/Documents/Reconversion Professionnelle/Apprentissage Programmation/Diginamic/Approche Objet/Liste_villes_sup25000.csv");
 		
 		Files.write(pathFileToCreate, listeVillesTriees, StandardCharsets.UTF_8);
+		
 	}
 
 }

@@ -9,6 +9,8 @@ public class TestCalendar {
 
 	public static void main(String[] args) {
 		
+		// Date du 19 Mai 2016 à 23:59:30
+		
 		Calendar date2016 = Calendar.getInstance();
 		
 		date2016.set(Calendar.YEAR, 2016);
@@ -31,9 +33,9 @@ public class TestCalendar {
 		
 		System.out.println(dateFormatee);
 		
-		Calendar calDuJour = Calendar.getInstance();
+		// Date du Jour
 		
-		calDuJour.set(2022, 9, 19, 11, 59, 58);
+		Calendar calDuJour = Calendar.getInstance();
 		
 		Date dateDuJour = calDuJour.getTime();
 		

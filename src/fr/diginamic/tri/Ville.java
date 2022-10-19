@@ -32,6 +32,13 @@ public class Ville implements Comparable<Ville>{
 		}		
 		return resultatTest;
 	}*/
+	
+	// Tri Ordre Alphabétique simplifié
+	
+	/*@Override
+	public int compareTo(Ville autreVille) {
+		return this.nom.compareTo(autreVille.getNom());
+	}*/
 
 	// Tri sur le nombre d'habitants
 	
