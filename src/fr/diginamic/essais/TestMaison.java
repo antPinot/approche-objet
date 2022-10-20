@@ -53,13 +53,19 @@ public class TestMaison {
 		
 		System.out.println(nvMaison);
 		
-		System.out.println(nvMaison.getSuperficieTotale());
-		System.out.println(nvMaison.getSuperficieEtage(1));
+		System.out.println("La superificie totale est de " + nvMaison.getSuperficieTotale() + " m2");
+		System.out.println("La superficie du 1er etage est de " + nvMaison.getSuperficieEtage(1) + " m2");
 		
-		System.out.println(nvMaison.getSuperficieType("chambre"));
-		System.out.println(nvMaison.getNbPiecesType("chambre"));
+		System.out.println("La superficie totale des chambres est de " + nvMaison.getSuperficieType("chambre") + " m2");
+		System.out.println("Le nombre de chambres est de " + nvMaison.getNbPiecesType("chambre"));
 		
-		System.out.println(nvMaison.getNbPiecesAllType());
+		
+		/*
+		int[] allPieces = nvMaison.getNbPiecesAllType();
+		
+		for (int pieces : allPieces) {
+			System.out.println(pieces);
+		}*/
 
 	}
 

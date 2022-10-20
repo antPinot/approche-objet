@@ -23,7 +23,7 @@ public abstract class Piece{
 
 	@Override
 	public String toString() {
-		return "Piece [superficie=" + superficie + ", numeroEtage=" + numeroEtage + "]";
+		return  getType() + " [superficie=" + getSuperficie() + ", numeroEtage=" + getNumeroEtage() + "]";
 	}
 	
 
