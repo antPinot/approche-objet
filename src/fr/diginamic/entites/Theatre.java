@@ -46,7 +46,7 @@ public class Theatre {
 	
 	
 	public String toString() {
-		return "\nLe nombre total de clients inscrits au " + name + " est de " + nbCustomers + " et la recette totale de l'établissement est de " + income + " euro";
+		return "\nLe nombre total de clients inscrits au " + getName() + " est de " + getNbCustomers() + " et la recette totale de l'établissement est de " + getIncome() + " euro";
 	}
 
 }
