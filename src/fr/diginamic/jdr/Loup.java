@@ -1,15 +1,23 @@
 package fr.diginamic.jdr;
 
-public class Loup extends Creature {
+public class Loup extends Monstre {
 
-	public Loup(int force, int hp) {
-		super(force, hp);
-	}
+	/**
+	 * Constructeur
+	 * 
+	 * @param force
+	 * @param hp
+	 * @param pointsRapportes
+	 * @param nom
+	 */
 
-	@Override
-	public void attaque() {
-		// TODO Auto-generated method stub
-
+	public Loup() {
+		this.force = 3 + (int) (Math.random() * ((8 - 3) + 1));
+		;
+		this.hp = 5 + (int) (Math.random() * ((10 - 5) + 1));
+		;
+		this.pointsRapportes = 1;
+		this.nom = "Loup";
 	}
 
 }

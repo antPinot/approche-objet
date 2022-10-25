@@ -1,15 +1,20 @@
 package fr.diginamic.jdr;
 
-public class Gobelin extends Creature {
+public class Gobelin extends Monstre {
 
-	public Gobelin(int force, int hp) {
-		super(force, hp);
-	}
-
-	@Override
-	public void attaque() {
-		// TODO Auto-generated method stub
-
+	/**
+	 * Constructeur
+	 * 
+	 * @param force
+	 * @param hp
+	 * @param pointsRapportes
+	 * @param nom
+	 */
+	public Gobelin() {
+		this.force = 5 + (int) (Math.random() * ((10 - 5) + 1));
+		this.hp = 10 + (int) (Math.random() * ((15 - 10) + 1));
+		this.pointsRapportes = 2;
+		this.nom = "Gobelin";
 	}
 
 }
