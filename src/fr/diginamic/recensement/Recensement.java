@@ -28,8 +28,10 @@ public class Recensement {
 
 		List<String> contenu = Files.readAllLines(path, StandardCharsets.UTF_8);
 
+		// On récupère les clés qui vont correspondre au nom des colonnes dans un tableau de String
 		String[] tableauCles = contenu.get(0).split(";");
 
+		// On déverse les clés dans une liste
 		List<String> clesListe = Arrays.asList(tableauCles);
 
 		Map<String, Integer> clesMap = new HashMap<>();

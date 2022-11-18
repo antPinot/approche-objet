@@ -1,9 +1,13 @@
 package fr.diginamic.sets;
 
+import annotations.ToString;
+
 public class Pays {
 	
+	@ToString
 	private String nom;
 	
+	@ToString
 	private int nbHabitants;
 	
 	private double pibParHabitant;
